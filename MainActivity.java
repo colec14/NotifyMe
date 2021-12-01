@@ -87,6 +87,7 @@ public class MainActivity extends AppCompatActivity {
             notificationChannel.enableVibration(true);
             notificationChannel.setDescription("Notification from Mascot");
             mNotifyManager.createNotificationChannel(notificationChannel);
+            //
         }
 
     }
